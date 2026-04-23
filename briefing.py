@@ -81,7 +81,7 @@ Keep bullets sharp and specific. No waffle. Include the actual URL for each bull
 
     message = client.messages.create(
         model="claude-sonnet-4-6",
-        max_tokens=1500,
+        max_tokens=1000,
         messages=[{"role": "user", "content": prompt}]
     )
     
