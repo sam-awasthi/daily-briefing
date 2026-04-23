@@ -45,7 +45,7 @@ def generate_briefing(articles):
     for a in articles:
         articles_text += f"Category: {a['category']}\nTitle: {a['title']}\nDescription: {a['description']}\nURL: {a['url']}\nSource: {a['source']}\n\n"
     
-    prompt = f"""You are writing a daily news briefing for Sam, a London-based growth and GTM operator, content creator with 400k+ audience, and startup person.
+    prompt = f"""You are writing a daily news briefing for Sam, a London-based growth and GTM operator, content creator with 400k+ audience, and startup person. Keep the entire briefing under 3500 characters total.
 
 Here are today's articles:
 
